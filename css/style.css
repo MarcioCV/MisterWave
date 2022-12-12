@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'tentacles';
+    src: url('../font/Tentacles.ttf') format('truetype');
+} 
+body, div{
+    background-color: black;
+}
+
+del{
+    font-weight: 200;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+span, del{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.full-size{
+    width: 100%;
+    height: 100%;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../pictures/DSC03355.JPG");
+    background-size: cover;
+    background-position: 0% 50%;
+}
+
+.logo-home{
+    max-width: 40vw;
+}
+
+.about-sound{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 100px;
+    height: 53vh;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.div-logo-home{
+
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 80%, rgba(0,0,0,1) 100%);
+}
+
+.parallax{
+    background-image: url("../pictures/DSC03263.JPG");
+    width: 100vw;
+    height: 40vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.black-gradient-top{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 88%, rgba(0,0,0,1) 100%);
+}
+
+.black-gradient-bottom{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 88%, rgba(0,0,0,1) 100%);
+}
+
+.conteiner-about{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 80vh;
+}
+
+.picture{
+    width: 50vw;
+    overflow: hidden;
+    background-image: url("../pictures/DSC03361.JPG");
+    background-size: cover;
+    background-position-x: 50%;
+}
+.about-text{
+    width: 50vw;
+    padding: 45px;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pic2{
+    background-image: url("../pictures/DSC03347.JPG") !important;
+}
+.pic3{
+    background-image:url("../pictures/DSC03283.JPG") !important;
+}
+
+.mosaico{
+    background-image: url("../pictures/Moisaico-PSD.png") !important;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    padding: 70px;
+    flex-direction: column;
+    background-position-y: 50%;
+    background-image: url("../pictures/DSC03236.JPG");
+    background-color: rgba(0,0,0,0.3);
+
+}
+
+.price-div{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    background:none;
+}
+
+#octopus-h{
+    font-size: 135px;
+    font-family: 'tentacles';
+    font-weight: 100;
+}
+
+.drivers-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:none;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+}
